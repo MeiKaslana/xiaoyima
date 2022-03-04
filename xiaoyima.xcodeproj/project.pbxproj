@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229B98B0DCB2FEE08DFFFAE7 /* Pods_xiaoyima_xiaoyimaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB04A9C135A5E88DA6AF3675 /* Pods_xiaoyima_xiaoyimaUITests.framework */; };
+		2A2776956E5A54E51CCF09E6 /* Pods_xiaoyimaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBB3C12F5BD21BDABEF889E /* Pods_xiaoyimaTests.framework */; };
+		7A23AB8627CD299D0065F91D /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A23AB8527CD299C0065F91D /* CalendarViewController.m */; };
+		7A23AB8A27CD2B430065F91D /* NSDate+JFCalendarHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A23AB8827CD2B430065F91D /* NSDate+JFCalendarHelp.m */; };
+		7A39C19E27CCFFA900903288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39C19D27CCFFA900903288 /* AppDelegate.m */; };
+		7A39C1A127CCFFA900903288 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39C1A027CCFFA900903288 /* SceneDelegate.m */; };
+		7A39C1A427CCFFA900903288 /* XYMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39C1A327CCFFA900903288 /* XYMTabBarViewController.m */; };
+		7A39C1A727CCFFA900903288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A39C1A527CCFFA900903288 /* Main.storyboard */; };
+		7A39C1A927CCFFAA00903288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A39C1A827CCFFAA00903288 /* Assets.xcassets */; };
+		7A39C1AC27CCFFAA00903288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A39C1AA27CCFFAA00903288 /* LaunchScreen.storyboard */; };
+		7A39C1AF27CCFFAA00903288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39C1AE27CCFFAA00903288 /* main.m */; };
+		7A39C1B927CCFFAA00903288 /* xiaoyimaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39C1B827CCFFAA00903288 /* xiaoyimaTests.m */; };
+		7A39C1C327CCFFAA00903288 /* xiaoyimaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39C1C227CCFFAA00903288 /* xiaoyimaUITests.m */; };
+		7A39C1C527CCFFAA00903288 /* xiaoyimaUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39C1C427CCFFAA00903288 /* xiaoyimaUITestsLaunchTests.m */; };
+		7A39C1D927CD1D5900903288 /* CalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39C1D827CD1D5900903288 /* CalendarViewCell.m */; };
+		7AB49CF827CDBFB6007CB1E7 /* account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB49CF627CDBFB6007CB1E7 /* account.storyboard */; };
+		7AB49CFE27CE00C8007CB1E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB49CFD27CE00C8007CB1E7 /* LoginViewController.m */; };
+		7AB49D0127CE08C5007CB1E7 /* account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB49CFF27CE08C5007CB1E7 /* account.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A39C1B527CCFFAA00903288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A39C19127CCFFA900903288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A39C19827CCFFA900903288;
+			remoteInfo = xiaoyima;
+		};
+		7A39C1BF27CCFFAA00903288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A39C19127CCFFA900903288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A39C19827CCFFA900903288;
+			remoteInfo = xiaoyima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A23AB8427CD299C0065F91D /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		7A23AB8527CD299C0065F91D /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		7A23AB8827CD2B430065F91D /* NSDate+JFCalendarHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JFCalendarHelp.m"; sourceTree = "<group>"; };
+		7A23AB8927CD2B430065F91D /* NSDate+JFCalendarHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JFCalendarHelp.h"; sourceTree = "<group>"; };
+		7A39C19927CCFFA900903288 /* xiaoyima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaoyima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A39C19C27CCFFA900903288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A39C19D27CCFFA900903288 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A39C19F27CCFFA900903288 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7A39C1A027CCFFA900903288 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7A39C1A227CCFFA900903288 /* XYMTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYMTabBarViewController.h; sourceTree = "<group>"; };
+		7A39C1A327CCFFA900903288 /* XYMTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYMTabBarViewController.m; sourceTree = "<group>"; };
+		7A39C1A627CCFFA900903288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A39C1A827CCFFAA00903288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A39C1AB27CCFFAA00903288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A39C1AD27CCFFAA00903288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A39C1AE27CCFFAA00903288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A39C1B427CCFFAA00903288 /* xiaoyimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaoyimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A39C1B827CCFFAA00903288 /* xiaoyimaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaoyimaTests.m; sourceTree = "<group>"; };
+		7A39C1BE27CCFFAA00903288 /* xiaoyimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaoyimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A39C1C227CCFFAA00903288 /* xiaoyimaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaoyimaUITests.m; sourceTree = "<group>"; };
+		7A39C1C427CCFFAA00903288 /* xiaoyimaUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaoyimaUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7A39C1D527CD1CA200903288 /* CalendarViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewCell.h; sourceTree = "<group>"; };
+		7A39C1D827CD1D5900903288 /* CalendarViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewCell.m; sourceTree = "<group>"; };
+		7AB49CF727CDBFB6007CB1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/account.storyboard; sourceTree = "<group>"; };
+		7AB49CFC27CE00C8007CB1E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7AB49CFD27CE00C8007CB1E7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7AB49D0027CE08C5007CB1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = xiaoyima/Base.lproj/account.storyboard; sourceTree = "<group>"; };
+		8EBB3C12F5BD21BDABEF889E /* Pods_xiaoyimaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoyimaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB04A9C135A5E88DA6AF3675 /* Pods_xiaoyima_xiaoyimaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoyima_xiaoyimaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB46F8A52FE71866CD5B143 /* Pods_xiaoyima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoyima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A39C19627CCFFA900903288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39C1B127CCFFAA00903288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2776956E5A54E51CCF09E6 /* Pods_xiaoyimaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39C1BB27CCFFAA00903288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229B98B0DCB2FEE08DFFFAE7 /* Pods_xiaoyima_xiaoyimaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A23AB8727CD2B430065F91D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				7A23AB8827CD2B430065F91D /* NSDate+JFCalendarHelp.m */,
+				7A23AB8927CD2B430065F91D /* NSDate+JFCalendarHelp.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		7A39C19027CCFFA900903288 = {
+			isa = PBXGroup;
+			children = (
+				7AB49CFF27CE08C5007CB1E7 /* account.storyboard */,
+				7A39C19B27CCFFA900903288 /* xiaoyima */,
+				7A39C1B727CCFFAA00903288 /* xiaoyimaTests */,
+				7A39C1C127CCFFAA00903288 /* xiaoyimaUITests */,
+				7A39C19A27CCFFA900903288 /* Products */,
+				BFA1511549A3D589ED159393 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A39C19A27CCFFA900903288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A39C19927CCFFA900903288 /* xiaoyima.app */,
+				7A39C1B427CCFFAA00903288 /* xiaoyimaTests.xctest */,
+				7A39C1BE27CCFFAA00903288 /* xiaoyimaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A39C19B27CCFFA900903288 /* xiaoyima */ = {
+			isa = PBXGroup;
+			children = (
+				7A23AB8727CD2B430065F91D /* utils */,
+				7A39C1D427CD1C4F00903288 /* UI */,
+				7A39C19C27CCFFA900903288 /* AppDelegate.h */,
+				7A39C19D27CCFFA900903288 /* AppDelegate.m */,
+				7A39C19F27CCFFA900903288 /* SceneDelegate.h */,
+				7A39C1A027CCFFA900903288 /* SceneDelegate.m */,
+				7A39C1A227CCFFA900903288 /* XYMTabBarViewController.h */,
+				7A39C1A327CCFFA900903288 /* XYMTabBarViewController.m */,
+				7A39C1A527CCFFA900903288 /* Main.storyboard */,
+				7A39C1A827CCFFAA00903288 /* Assets.xcassets */,
+				7A39C1AA27CCFFAA00903288 /* LaunchScreen.storyboard */,
+				7A39C1AD27CCFFAA00903288 /* Info.plist */,
+				7A39C1AE27CCFFAA00903288 /* main.m */,
+				7AB49CF627CDBFB6007CB1E7 /* account.storyboard */,
+			);
+			path = xiaoyima;
+			sourceTree = "<group>";
+		};
+		7A39C1B727CCFFAA00903288 /* xiaoyimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A39C1B827CCFFAA00903288 /* xiaoyimaTests.m */,
+			);
+			path = xiaoyimaTests;
+			sourceTree = "<group>";
+		};
+		7A39C1C127CCFFAA00903288 /* xiaoyimaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A39C1C227CCFFAA00903288 /* xiaoyimaUITests.m */,
+				7A39C1C427CCFFAA00903288 /* xiaoyimaUITestsLaunchTests.m */,
+			);
+			path = xiaoyimaUITests;
+			sourceTree = "<group>";
+		};
+		7A39C1D427CD1C4F00903288 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7AB49CFC27CE00C8007CB1E7 /* LoginViewController.h */,
+				7AB49CFD27CE00C8007CB1E7 /* LoginViewController.m */,
+				7A23AB8427CD299C0065F91D /* CalendarViewController.h */,
+				7A23AB8527CD299C0065F91D /* CalendarViewController.m */,
+				7A39C1D527CD1CA200903288 /* CalendarViewCell.h */,
+				7A39C1D827CD1D5900903288 /* CalendarViewCell.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BFA1511549A3D589ED159393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCB46F8A52FE71866CD5B143 /* Pods_xiaoyima.framework */,
+				CB04A9C135A5E88DA6AF3675 /* Pods_xiaoyima_xiaoyimaUITests.framework */,
+				8EBB3C12F5BD21BDABEF889E /* Pods_xiaoyimaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A39C19827CCFFA900903288 /* xiaoyima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A39C1C827CCFFAA00903288 /* Build configuration list for PBXNativeTarget "xiaoyima" */;
+			buildPhases = (
+				DA6CD92F3E0577E1F8FE6EE5 /* [CP] Check Pods Manifest.lock */,
+				7A39C19527CCFFA900903288 /* Sources */,
+				7A39C19627CCFFA900903288 /* Frameworks */,
+				7A39C19727CCFFA900903288 /* Resources */,
+				736361DF39A06E8C83C144CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xiaoyima;
+			productName = xiaoyima;
+			productReference = 7A39C19927CCFFA900903288 /* xiaoyima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A39C1B327CCFFAA00903288 /* xiaoyimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A39C1CB27CCFFAA00903288 /* Build configuration list for PBXNativeTarget "xiaoyimaTests" */;
+			buildPhases = (
+				5BC46FF4C82D35C9D73CCF30 /* [CP] Check Pods Manifest.lock */,
+				7A39C1B027CCFFAA00903288 /* Sources */,
+				7A39C1B127CCFFAA00903288 /* Frameworks */,
+				7A39C1B227CCFFAA00903288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A39C1B627CCFFAA00903288 /* PBXTargetDependency */,
+			);
+			name = xiaoyimaTests;
+			productName = xiaoyimaTests;
+			productReference = 7A39C1B427CCFFAA00903288 /* xiaoyimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A39C1BD27CCFFAA00903288 /* xiaoyimaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A39C1CE27CCFFAA00903288 /* Build configuration list for PBXNativeTarget "xiaoyimaUITests" */;
+			buildPhases = (
+				B6D2990874A0E8A0B5A7BB5F /* [CP] Check Pods Manifest.lock */,
+				7A39C1BA27CCFFAA00903288 /* Sources */,
+				7A39C1BB27CCFFAA00903288 /* Frameworks */,
+				7A39C1BC27CCFFAA00903288 /* Resources */,
+				AA70BBF520310D02F7847FE7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A39C1C027CCFFAA00903288 /* PBXTargetDependency */,
+			);
+			name = xiaoyimaUITests;
+			productName = xiaoyimaUITests;
+			productReference = 7A39C1BE27CCFFAA00903288 /* xiaoyimaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A39C19127CCFFA900903288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7A39C19827CCFFA900903288 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					7A39C1B327CCFFAA00903288 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7A39C19827CCFFA900903288;
+					};
+					7A39C1BD27CCFFAA00903288 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7A39C19827CCFFA900903288;
+					};
+				};
+			};
+			buildConfigurationList = 7A39C19427CCFFA900903288 /* Build configuration list for PBXProject "xiaoyima" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A39C19027CCFFA900903288;
+			productRefGroup = 7A39C19A27CCFFA900903288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A39C19827CCFFA900903288 /* xiaoyima */,
+				7A39C1B327CCFFAA00903288 /* xiaoyimaTests */,
+				7A39C1BD27CCFFAA00903288 /* xiaoyimaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A39C19727CCFFA900903288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A39C1AC27CCFFAA00903288 /* LaunchScreen.storyboard in Resources */,
+				7A39C1A927CCFFAA00903288 /* Assets.xcassets in Resources */,
+				7AB49D0127CE08C5007CB1E7 /* account.storyboard in Resources */,
+				7AB49CF827CDBFB6007CB1E7 /* account.storyboard in Resources */,
+				7A39C1A727CCFFA900903288 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39C1B227CCFFAA00903288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39C1BC27CCFFAA00903288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BC46FF4C82D35C9D73CCF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xiaoyimaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736361DF39A06E8C83C144CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		AA70BBF520310D02F7847FE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xiaoyima-xiaoyimaUITests/Pods-xiaoyima-xiaoyimaUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CVCalendar/CVCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CVCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xiaoyima-xiaoyimaUITests/Pods-xiaoyima-xiaoyimaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D2990874A0E8A0B5A7BB5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xiaoyima-xiaoyimaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA6CD92F3E0577E1F8FE6EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xiaoyima-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A39C19527CCFFA900903288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB49CFE27CE00C8007CB1E7 /* LoginViewController.m in Sources */,
+				7A23AB8A27CD2B430065F91D /* NSDate+JFCalendarHelp.m in Sources */,
+				7A39C1A427CCFFA900903288 /* XYMTabBarViewController.m in Sources */,
+				7A39C19E27CCFFA900903288 /* AppDelegate.m in Sources */,
+				7A39C1AF27CCFFAA00903288 /* main.m in Sources */,
+				7A39C1D927CD1D5900903288 /* CalendarViewCell.m in Sources */,
+				7A23AB8627CD299D0065F91D /* CalendarViewController.m in Sources */,
+				7A39C1A127CCFFA900903288 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39C1B027CCFFAA00903288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A39C1B927CCFFAA00903288 /* xiaoyimaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39C1BA27CCFFAA00903288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A39C1C327CCFFAA00903288 /* xiaoyimaUITests.m in Sources */,
+				7A39C1C527CCFFAA00903288 /* xiaoyimaUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A39C1B627CCFFAA00903288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A39C19827CCFFA900903288 /* xiaoyima */;
+			targetProxy = 7A39C1B527CCFFAA00903288 /* PBXContainerItemProxy */;
+		};
+		7A39C1C027CCFFAA00903288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A39C19827CCFFA900903288 /* xiaoyima */;
+			targetProxy = 7A39C1BF27CCFFAA00903288 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A39C1A527CCFFA900903288 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A39C1A627CCFFA900903288 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A39C1AA27CCFFAA00903288 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A39C1AB27CCFFAA00903288 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7AB49CF627CDBFB6007CB1E7 /* account.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB49CF727CDBFB6007CB1E7 /* Base */,
+			);
+			name = account.storyboard;
+			sourceTree = "<group>";
+		};
+		7AB49CFF27CE08C5007CB1E7 /* account.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB49D0027CE08C5007CB1E7 /* Base */,
+			);
+			name = account.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A39C1C627CCFFAA00903288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A39C1C727CCFFAA00903288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A39C1C927CCFFAA00903288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xiaoyima/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.sdk.xiaoyima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A39C1CA27CCFFAA00903288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xiaoyima/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.sdk.xiaoyima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A39C1CC27CCFFAA00903288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.sdk.xiaoyimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaoyima.app/xiaoyima";
+			};
+			name = Debug;
+		};
+		7A39C1CD27CCFFAA00903288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.sdk.xiaoyimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaoyima.app/xiaoyima";
+			};
+			name = Release;
+		};
+		7A39C1CF27CCFFAA00903288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.sdk.xiaoyimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xiaoyima;
+			};
+			name = Debug;
+		};
+		7A39C1D027CCFFAA00903288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhu.sdk.xiaoyimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xiaoyima;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A39C19427CCFFA900903288 /* Build configuration list for PBXProject "xiaoyima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A39C1C627CCFFAA00903288 /* Debug */,
+				7A39C1C727CCFFAA00903288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A39C1C827CCFFAA00903288 /* Build configuration list for PBXNativeTarget "xiaoyima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A39C1C927CCFFAA00903288 /* Debug */,
+				7A39C1CA27CCFFAA00903288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A39C1CB27CCFFAA00903288 /* Build configuration list for PBXNativeTarget "xiaoyimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A39C1CC27CCFFAA00903288 /* Debug */,
+				7A39C1CD27CCFFAA00903288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A39C1CE27CCFFAA00903288 /* Build configuration list for PBXNativeTarget "xiaoyimaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A39C1CF27CCFFAA00903288 /* Debug */,
+				7A39C1D027CCFFAA00903288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A39C19127CCFFA900903288 /* Project object */;
+}
