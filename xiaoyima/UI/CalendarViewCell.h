@@ -11,5 +11,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *dayLabel;
 
-
+-(bool)MensesRecordPress;
+-(bool)MensesEndPress;
 @end

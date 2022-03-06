@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		229B98B0DCB2FEE08DFFFAE7 /* Pods_xiaoyima_xiaoyimaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB04A9C135A5E88DA6AF3675 /* Pods_xiaoyima_xiaoyimaUITests.framework */; };
 		2A2776956E5A54E51CCF09E6 /* Pods_xiaoyimaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBB3C12F5BD21BDABEF889E /* Pods_xiaoyimaTests.framework */; };
+		7A0AD8F227D267D700C3D49A /* WeChatTalkUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0AD8F127D267D700C3D49A /* WeChatTalkUIView.m */; };
+		7A0AD8F627D2680500C3D49A /* WeChatUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0AD8F527D2680500C3D49A /* WeChatUITableViewCell.m */; };
+		7A0AD8F927D2699000C3D49A /* WeChatUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0AD8F827D2699000C3D49A /* WeChatUITableView.m */; };
+		7A0AD8FB27D26BA300C3D49A /* WeChatUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0AD8FA27D26BA300C3D49A /* WeChatUITableViewController.m */; };
+		7A0AD90127D27E6200C3D49A /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0AD90027D27E6200C3D49A /* add.png */; };
 		7A23AB8627CD299D0065F91D /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A23AB8527CD299C0065F91D /* CalendarViewController.m */; };
 		7A23AB8A27CD2B430065F91D /* NSDate+JFCalendarHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A23AB8827CD2B430065F91D /* NSDate+JFCalendarHelp.m */; };
 		7A39C19E27CCFFA900903288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39C19D27CCFFA900903288 /* AppDelegate.m */; };
@@ -45,6 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A0AD8F127D267D700C3D49A /* WeChatTalkUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatTalkUIView.m; sourceTree = "<group>"; };
+		7A0AD8F327D267EC00C3D49A /* WeChatTalkUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatTalkUIView.h; sourceTree = "<group>"; };
+		7A0AD8F427D267F900C3D49A /* WeChatUITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatUITableViewCell.h; sourceTree = "<group>"; };
+		7A0AD8F527D2680500C3D49A /* WeChatUITableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatUITableViewCell.m; sourceTree = "<group>"; };
+		7A0AD8F727D2699000C3D49A /* WeChatUITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatUITableView.h; sourceTree = "<group>"; };
+		7A0AD8F827D2699000C3D49A /* WeChatUITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatUITableView.m; sourceTree = "<group>"; };
+		7A0AD8FA27D26BA300C3D49A /* WeChatUITableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatUITableViewController.m; sourceTree = "<group>"; };
+		7A0AD8FC27D26BAE00C3D49A /* WeChatUITableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatUITableViewController.h; sourceTree = "<group>"; };
+		7A0AD90027D27E6200C3D49A /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		7A23AB8427CD299C0065F91D /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		7A23AB8527CD299C0065F91D /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		7A23AB8827CD2B430065F91D /* NSDate+JFCalendarHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JFCalendarHelp.m"; sourceTree = "<group>"; };
@@ -116,6 +130,7 @@
 		7A39C19027CCFFA900903288 = {
 			isa = PBXGroup;
 			children = (
+				7A0AD90027D27E6200C3D49A /* add.png */,
 				7AB49CFF27CE08C5007CB1E7 /* account.storyboard */,
 				7A39C19B27CCFFA900903288 /* xiaoyima */,
 				7A39C1B727CCFFAA00903288 /* xiaoyimaTests */,
@@ -176,12 +191,20 @@
 		7A39C1D427CD1C4F00903288 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				7A0AD8F727D2699000C3D49A /* WeChatUITableView.h */,
+				7A0AD8F827D2699000C3D49A /* WeChatUITableView.m */,
 				7AB49CFC27CE00C8007CB1E7 /* LoginViewController.h */,
 				7AB49CFD27CE00C8007CB1E7 /* LoginViewController.m */,
 				7A23AB8427CD299C0065F91D /* CalendarViewController.h */,
 				7A23AB8527CD299C0065F91D /* CalendarViewController.m */,
 				7A39C1D527CD1CA200903288 /* CalendarViewCell.h */,
 				7A39C1D827CD1D5900903288 /* CalendarViewCell.m */,
+				7A0AD8F127D267D700C3D49A /* WeChatTalkUIView.m */,
+				7A0AD8F327D267EC00C3D49A /* WeChatTalkUIView.h */,
+				7A0AD8F427D267F900C3D49A /* WeChatUITableViewCell.h */,
+				7A0AD8F527D2680500C3D49A /* WeChatUITableViewCell.m */,
+				7A0AD8FA27D26BA300C3D49A /* WeChatUITableViewController.m */,
+				7A0AD8FC27D26BAE00C3D49A /* WeChatUITableViewController.h */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -307,6 +330,7 @@
 				7A39C1AC27CCFFAA00903288 /* LaunchScreen.storyboard in Resources */,
 				7A39C1A927CCFFAA00903288 /* Assets.xcassets in Resources */,
 				7AB49D0127CE08C5007CB1E7 /* account.storyboard in Resources */,
+				7A0AD90127D27E6200C3D49A /* add.png in Resources */,
 				7AB49CF827CDBFB6007CB1E7 /* account.storyboard in Resources */,
 				7A39C1A727CCFFA900903288 /* Main.storyboard in Resources */,
 			);
@@ -435,11 +459,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0AD8F627D2680500C3D49A /* WeChatUITableViewCell.m in Sources */,
 				7AB49CFE27CE00C8007CB1E7 /* LoginViewController.m in Sources */,
 				7A23AB8A27CD2B430065F91D /* NSDate+JFCalendarHelp.m in Sources */,
 				7A39C1A427CCFFA900903288 /* XYMTabBarViewController.m in Sources */,
 				7A39C19E27CCFFA900903288 /* AppDelegate.m in Sources */,
+				7A0AD8FB27D26BA300C3D49A /* WeChatUITableViewController.m in Sources */,
 				7A39C1AF27CCFFAA00903288 /* main.m in Sources */,
+				7A0AD8F227D267D700C3D49A /* WeChatTalkUIView.m in Sources */,
+				7A0AD8F927D2699000C3D49A /* WeChatUITableView.m in Sources */,
 				7A39C1D927CD1D5900903288 /* CalendarViewCell.m in Sources */,
 				7A23AB8627CD299D0065F91D /* CalendarViewController.m in Sources */,
 				7A39C1A127CCFFA900903288 /* SceneDelegate.m in Sources */,

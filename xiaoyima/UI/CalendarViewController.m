@@ -24,6 +24,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *CoverLabel;
 //@property (weak, nonatomic) UILabel *CoverLabel;
 @property (weak, nonatomic) IBOutlet UIButton *MensesRecord;
+@property (weak, nonatomic) IBOutlet UIButton *MensesEnd;
 @property (weak, nonatomic) CalendarViewCell *OnClickCell;
 @end
 
@@ -43,7 +44,12 @@
     });
 }
 - (IBAction)MensesRecordOnClick:(id)sender {
-    _OnClickCell.dayLabel.layer.backgroundColor=[UIColor redColor].CGColor;
+    [_MensesRecord setTitle:[_OnClickCell MensesRecordPress]?@"取消记录":@"月经开始" forState:UIControlStateNormal];
+    _CoverLabel.hidden=YES;
+    _Popupwindow.hidden=YES;
+}
+- (IBAction)MensesEndOnClick:(id)sender {
+    [_MensesEnd setTitle:[_OnClickCell MensesEndPress]?@"取消记录":@"月经结束" forState:UIControlStateNormal];
     _CoverLabel.hidden=YES;
     _Popupwindow.hidden=YES;
 }
