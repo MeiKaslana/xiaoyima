@@ -7,15 +7,17 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface WeChatUITableViewController : UIViewController
-@property (strong, nonatomic) NSMutableArray *arrMessageModel;
-
-@end
-
 @interface MessageModel :NSObject
 @property (nonatomic,strong) NSString *userAlias;
 @property (nonatomic,strong) NSString *messageText;
-@property (nonatomic,strong) NSDate *datetime;
+@property (nonatomic,strong) NSNumber *datetime;
 
 @end
+
+@interface WeChatUITableViewController : UIViewController
+@property (strong, nonatomic) NSMutableArray *arrMessageModel;
+-(void)updateTableView:(MessageModel *)model;
+@end
+
+
 

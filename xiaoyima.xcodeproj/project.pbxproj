@@ -30,6 +30,10 @@
 		7AB49CF827CDBFB6007CB1E7 /* account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB49CF627CDBFB6007CB1E7 /* account.storyboard */; };
 		7AB49CFE27CE00C8007CB1E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB49CFD27CE00C8007CB1E7 /* LoginViewController.m */; };
 		7AB49D0127CE08C5007CB1E7 /* account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB49CFF27CE08C5007CB1E7 /* account.storyboard */; };
+		7AEE56D127D48B29008B7781 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEE56CF27D484DE008B7781 /* AFNetworking.framework */; platformFilter = ios; };
+		7AEE56D227D48B29008B7781 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEE56CF27D484DE008B7781 /* AFNetworking.framework */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7AEE56DB27D49D02008B7781 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEE56DA27D49D02008B7781 /* GCDAsyncSocket.m */; };
+		7AEE56DF27D49DAC008B7781 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEE56DE27D49DAC008B7781 /* SocketManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,20 @@
 			remoteInfo = xiaoyima;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7AEE56D327D48B29008B7781 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7AEE56D227D48B29008B7781 /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7A0AD8F127D267D700C3D49A /* WeChatTalkUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatTalkUIView.m; sourceTree = "<group>"; };
@@ -86,6 +104,11 @@
 		7AB49CFC27CE00C8007CB1E7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		7AB49CFD27CE00C8007CB1E7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		7AB49D0027CE08C5007CB1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = xiaoyima/Base.lproj/account.storyboard; sourceTree = "<group>"; };
+		7AEE56CF27D484DE008B7781 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = xiaoyima/AFNetworking.framework; sourceTree = "<group>"; };
+		7AEE56DA27D49D02008B7781 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		7AEE56DC27D49D20008B7781 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		7AEE56DD27D49D9F008B7781 /* SocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
+		7AEE56DE27D49DAC008B7781 /* SocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketManager.m; sourceTree = "<group>"; };
 		8EBB3C12F5BD21BDABEF889E /* Pods_xiaoyimaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoyimaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB04A9C135A5E88DA6AF3675 /* Pods_xiaoyima_xiaoyimaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoyima_xiaoyimaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB46F8A52FE71866CD5B143 /* Pods_xiaoyima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoyima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AEE56D127D48B29008B7781 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +154,7 @@
 		7A39C19027CCFFA900903288 = {
 			isa = PBXGroup;
 			children = (
+				7AEE56CF27D484DE008B7781 /* AFNetworking.framework */,
 				7A0AD90027D27E6200C3D49A /* add.png */,
 				7AB49CFF27CE08C5007CB1E7 /* account.storyboard */,
 				7A39C19B27CCFFA900903288 /* xiaoyima */,
@@ -153,6 +178,7 @@
 		7A39C19B27CCFFA900903288 /* xiaoyima */ = {
 			isa = PBXGroup;
 			children = (
+				7AEE56D927D49D02008B7781 /* Net */,
 				7A23AB8727CD2B430065F91D /* utils */,
 				7A39C1D427CD1C4F00903288 /* UI */,
 				7A39C19C27CCFFA900903288 /* AppDelegate.h */,
@@ -209,6 +235,17 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		7AEE56D927D49D02008B7781 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				7AEE56DA27D49D02008B7781 /* GCDAsyncSocket.m */,
+				7AEE56DC27D49D20008B7781 /* GCDAsyncSocket.h */,
+				7AEE56DD27D49D9F008B7781 /* SocketManager.h */,
+				7AEE56DE27D49DAC008B7781 /* SocketManager.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
 		BFA1511549A3D589ED159393 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +268,7 @@
 				7A39C19627CCFFA900903288 /* Frameworks */,
 				7A39C19727CCFFA900903288 /* Resources */,
 				736361DF39A06E8C83C144CC /* [CP] Embed Pods Frameworks */,
+				7AEE56D327D48B29008B7781 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -459,6 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AEE56DF27D49DAC008B7781 /* SocketManager.m in Sources */,
 				7A0AD8F627D2680500C3D49A /* WeChatUITableViewCell.m in Sources */,
 				7AB49CFE27CE00C8007CB1E7 /* LoginViewController.m in Sources */,
 				7A23AB8A27CD2B430065F91D /* NSDate+JFCalendarHelp.m in Sources */,
@@ -470,6 +509,7 @@
 				7A0AD8F927D2699000C3D49A /* WeChatUITableView.m in Sources */,
 				7A39C1D927CD1D5900903288 /* CalendarViewCell.m in Sources */,
 				7A23AB8627CD299D0065F91D /* CalendarViewController.m in Sources */,
+				7AEE56DB27D49D02008B7781 /* GCDAsyncSocket.m in Sources */,
 				7A39C1A127CCFFA900903288 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -661,6 +701,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					AipOcrSdk.framework,
+					AipBase.framework,
+					IdcardQuality.framework,
+					libNyfPayPlugin.a,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xiaoyima",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = xiaoyima/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -687,6 +737,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xiaoyima",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = xiaoyima/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -1,24 +1,41 @@
-import socketserver  # 导入socketserver模块
+# coding=utf-8
+from twisted.internet.protocol import Protocol, Factory
+from twisted.internet import reactor
+import json
+import os
+import threading as thd
+import time
 
 
-class MyServer(socketserver.BaseRequestHandler):  # 创建一个类，继承自socketserver模块下的BaseRequestHandler类
-    def handle(self):  # 要想实现并发效果必须重写父类中的handler方法，在此方法中实现服务端的逻辑代码（不用再写连接准备，包括bind()、listen()、accept()方法）
-        while 1:
-            conn = self.request
-            addr = self.client_address
-            # 上面两行代码，等于 conn,addr = socket.accept()，只不过在socketserver模块中已经替我们包装好了，还替我们包装了包括bind()、listen()、accept()方法
-            while 1:
-                accept_data = str(conn.recv(1024), encoding="utf8")
-                print(accept_data)
-                if accept_data == "byebye":
-                    break
-                send_data = bytes(input(">>>>>"), encoding="utf8")
-                conn.sendall(send_data)
-            conn.close()
+class IphoneChat(Protocol):
+    def connectionMade(self):
+        # self.transport.write("""connected""")
+        self.factory.clients.append(self)
+
+        print("clients are ", self.factory.clients)
 
 
-if __name__ == '__main__':
-    sever = socketserver.ThreadingTCPServer(("127.0.0.1", 9999),
-                                            MyServer)  # 传入 端口地址 和 我们新建的继承自socketserver模块下的BaseRequestHandler类  实例化对象
+    def connectionLost(self, reason):
+        self.factory.clients.remove(self)
 
-    sever.serve_forever()  # 通过调用对象的serve_forever()方法来激活服务端
+    def dataReceived(self, data):
+        msg = json.loads(data)
+        print("data is ", msg)
+        returnmsg = "roger"
+
+        for c in self.factory.clients:
+            c.message(returnmsg)
+
+    def message(self, message):
+        #此处python3 python2要注意出来str bytes
+        self.transport.write(bytes(message.encode('utf-8')))
+
+
+
+factory = Factory()
+factory.protocol = IphoneChat
+factory.clients = []
+
+reactor.listenTCP(8888, factory)
+print("Iphone Chat server started")
+reactor.run()
